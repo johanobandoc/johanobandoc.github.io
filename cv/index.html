@@ -171,6 +171,23 @@
       height: 860px;
       border: none;
     }
+    .cv-mobile-hint {
+      display: none;
+    }
+
+    /* ── Mobile: PDF iframes are unusable on phones ── */
+    @media (max-width: 767px) {
+      .pdf-wrapper {
+        display: none;
+      }
+      .cv-mobile-hint {
+        display: block;
+        text-align: center;
+        font-size: 0.875rem;
+        color: var(--global-text-color-light, #aaa);
+        margin-top: 0.5rem;
+      }
+    }
   </style>
 </head>
 
@@ -230,6 +247,8 @@
           </a>
           <span class="cv-download-note">Full CV &mdash; last updated June 2026</span>
         </div>
+
+        <p class="cv-mobile-hint">Tap the button above to open the full CV in Google Drive.</p>
 
         <!-- ── PDF embed ── -->
         <div class="pdf-wrapper">

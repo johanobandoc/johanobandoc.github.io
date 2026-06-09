@@ -68,7 +68,11 @@
       column-gap: 1.25rem;
     }
     @media (max-width: 768px) { .masonry-grid { columns: 2; } }
-    @media (max-width: 480px) { .masonry-grid { columns: 1; } }
+    @media (max-width: 576px) {
+      .masonry-grid { columns: 1; }
+      .masonry-overlay strong { font-size: 0.88rem; }
+      .masonry-overlay span   { font-size: 0.78rem; }
+    }
 
     .masonry-item {
       break-inside: avoid;

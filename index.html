@@ -114,6 +114,18 @@
     .profile-carousel .carousel-indicators li.active {
       background-color: var(--global-theme-color, #2698ba);
     }
+
+    /* ── Mobile: stack profile above text ── */
+    @media (max-width: 576px) {
+      .profile.float-right {
+        float: none !important;
+        width: 100% !important;
+        margin: 0 0 1.75rem 0 !important;
+      }
+      .profile-carousel .carousel-item img {
+        height: 260px;
+      }
+    }
   </style>
 </head>
 
