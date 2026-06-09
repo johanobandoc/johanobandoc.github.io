@@ -210,10 +210,13 @@
         </button>
         <div class="collapse navbar-collapse text-right" id="navbarNav">
           <ul class="navbar-nav ml-auto flex-nowrap">
-            <li class="nav-item"><a class="nav-link" href="../index.html">about</a></li>
-            <li class="nav-item active"><a class="nav-link" href="index.html">research<span class="sr-only">(current)</span></a></li>
-            <li class="nav-item"><a class="nav-link" href="../moments/index.html">moments</a></li>
-            <li class="nav-item"><a class="nav-link" href="../cv/index.html">cv</a></li>
+            <li class="nav-item"><a class="nav-link" href="../index.html"><span data-i18n="nav.about">about</span></a></li>
+            <li class="nav-item active"><a class="nav-link" href="index.html"><span data-i18n="nav.research">research</span><span class="sr-only">(current)</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="../moments/index.html"><span data-i18n="nav.moments">moments</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="../cv/index.html"><span data-i18n="nav.cv">cv</span></a></li>
+            <li class="toggle-container">
+              <button id="lang-toggle" title="Change language / Cambiar idioma">ES</button>
+            </li>
             <li class="toggle-container">
               <button id="light-toggle" title="Change theme">
                 <i class="fas fa-moon"></i> <i class="fas fa-sun"></i>
@@ -232,10 +235,10 @@
     <div class="post">
       <header class="post-header research-hero">
         <h1 class="hero-title">
-          <span class="hero-line-light">Ideas</span>
-          <span class="hero-line-bold">in Motion</span>
+          <span class="hero-line-light" data-i18n="research.hero-light">Ideas</span>
+          <span class="hero-line-bold" data-i18n="research.hero-bold">in Motion</span>
         </h1>
-        <p class="hero-desc">
+        <p class="hero-desc" data-i18n="research.hero-desc">
           A visual journey through my research — figures, results, and moments from
           the work. Much of this grew out of collaborations with brilliant peers,
           and I've learned as much from those people as from the research itself.
@@ -247,7 +250,7 @@
 
         <!-- ── Year filter ── -->
         <div class="year-filter">
-          <button class="yr-btn active" data-year="all">All</button>
+          <button class="yr-btn active" data-year="all" data-i18n="research.filter-all">All</button>
           <button class="yr-btn" data-year="2026">2026</button>
           <button class="yr-btn" data-year="2025">2025</button>
           <button class="yr-btn" data-year="2024">2024</button>
@@ -908,6 +911,7 @@
   <script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js"
     integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script>
   <script defer src="../assets/js/zoom.js"></script>
+  <script defer src="../assets/js/lang.js"></script>
   <script src="../assets/js/no_defer.js"></script>
   <script defer src="../assets/js/common.js"></script>
   <script>

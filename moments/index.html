@@ -176,10 +176,13 @@
         </button>
         <div class="collapse navbar-collapse text-right" id="navbarNav">
           <ul class="navbar-nav ml-auto flex-nowrap">
-            <li class="nav-item"><a class="nav-link" href="../index.html">about</a></li>
-            <li class="nav-item"><a class="nav-link" href="../research/index.html">research</a></li>
-            <li class="nav-item active"><a class="nav-link" href="index.html">moments<span class="sr-only">(current)</span></a></li>
-            <li class="nav-item"><a class="nav-link" href="../cv/index.html">cv</a></li>
+            <li class="nav-item"><a class="nav-link" href="../index.html"><span data-i18n="nav.about">about</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="../research/index.html"><span data-i18n="nav.research">research</span></a></li>
+            <li class="nav-item active"><a class="nav-link" href="index.html"><span data-i18n="nav.moments">moments</span><span class="sr-only">(current)</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="../cv/index.html"><span data-i18n="nav.cv">cv</span></a></li>
+            <li class="toggle-container">
+              <button id="lang-toggle" title="Change language / Cambiar idioma">ES</button>
+            </li>
             <li class="toggle-container">
               <button id="light-toggle" title="Change theme">
                 <i class="fas fa-moon"></i> <i class="fas fa-sun"></i>
@@ -199,10 +202,10 @@
 
       <header class="post-header moments-hero">
         <h1 class="hero-title">
-          <span class="hero-line-light">Beyond</span>
-          <span class="hero-line-bold">the Lab</span>
+          <span class="hero-line-light" data-i18n="moments.hero-light">Beyond</span>
+          <span class="hero-line-bold" data-i18n="moments.hero-bold">the Lab</span>
         </h1>
-        <p class="hero-desc">
+        <p class="hero-desc" data-i18n="moments.hero-desc">
           Snapshots from conferences, research visits, and the cities in between.
           For more snapshots, check my <a href="https://www.instagram.com/johanobandoc" rel="external nofollow noopener" target="_blank">Instagram profile</a> :)
         </p>
@@ -600,6 +603,7 @@
   <script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js"
     integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script>
   <script defer src="../assets/js/zoom.js"></script>
+  <script defer src="../assets/js/lang.js"></script>
   <script src="../assets/js/no_defer.js"></script>
   <script defer src="../assets/js/common.js"></script>
   <script type="text/javascript">function progressBarSetup() { "max" in document.createElement("progress") ? (initializeProgressElement(), $(document).on("scroll", function () { progressBar.attr({ value: getCurrentScrollPosition() }) }), $(window).on("resize", initializeProgressElement)) : (resizeProgressBar(), $(document).on("scroll", resizeProgressBar), $(window).on("resize", resizeProgressBar)) } function getCurrentScrollPosition() { return $(window).scrollTop() } function initializeProgressElement() { let e = $("#navbar").outerHeight(!0); $("body").css({ "padding-top": e }), $("progress-container").css({ "padding-top": e }), progressBar.css({ top: e }), progressBar.attr({ max: getDistanceToScroll(), value: getCurrentScrollPosition() }) } function getDistanceToScroll() { return $(document).height() - $(window).height() } function resizeProgressBar() { progressBar.css({ width: getWidthPercentage() + "%" }) } function getWidthPercentage() { return getCurrentScrollPosition() / getDistanceToScroll() * 100 } const progressBar = $("#progress"); window.onload = function () { setTimeout(progressBarSetup, 50) };</script>
