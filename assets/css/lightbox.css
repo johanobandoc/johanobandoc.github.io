@@ -1,0 +1,37 @@
+/* ── Zoomable images ── */
+[data-zoomable] {
+  cursor: zoom-in;
+}
+
+/* ── Lightbox overlay ── */
+.lb-overlay {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  cursor: zoom-out;
+  opacity: 0;
+  transition: opacity 0.25s ease;
+}
+
+.lb-overlay.lb-open {
+  opacity: 1;
+}
+
+/* ── Zoomed image ── */
+.lb-img {
+  max-width: 90vw;
+  max-height: 90vh;
+  object-fit: contain;
+  border-radius: 6px;
+  box-shadow: 0 12px 48px rgba(0, 0, 0, 0.28);
+  transform: scale(0.96);
+  transition: transform 0.25s ease;
+  cursor: zoom-out;
+}
+
+.lb-overlay.lb-open .lb-img {
+  transform: scale(1);
+}
