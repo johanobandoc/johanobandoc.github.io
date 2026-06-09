@@ -23,6 +23,7 @@
   <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16.png">
   <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon-180.png">
   <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/lightbox.css">
   <link rel="canonical" href="index.html">
   <link id="highlight_theme_light" rel="stylesheet" href="">
   <link id="highlight_theme_dark" rel="stylesheet" href="" media="none">
@@ -176,35 +177,35 @@
             </ol>
             <div class="carousel-inner rounded">
               <div class="carousel-item active">
-                <img src="assets/img/me/me_1.jpg" alt="Johan Obando-Ceron">
+                <img src="assets/img/me/me_1.jpg" alt="Johan Obando-Ceron" data-zoomable>
               </div>
               <div class="carousel-item">
-                <img src="assets/img/me/me_2.jpg" alt="Johan Obando-Ceron">
+                <img src="assets/img/me/me_2.jpg" alt="Johan Obando-Ceron" data-zoomable>
               </div>
               <div class="carousel-item">
-                <img src="assets/img/me/me_3.jpg" alt="Johan Obando-Ceron">
+                <img src="assets/img/me/me_3.jpg" alt="Johan Obando-Ceron" data-zoomable>
               </div>
 
               <div class="carousel-item">
-                <img src="assets/img/me/me_5.jpg" alt="Johan Obando-Ceron">
+                <img src="assets/img/me/me_5.jpg" alt="Johan Obando-Ceron" data-zoomable>
               </div>
               <div class="carousel-item">
-                <img src="assets/img/me/me_6.jpg" alt="Johan Obando-Ceron">
+                <img src="assets/img/me/me_6.jpg" alt="Johan Obando-Ceron" data-zoomable>
               </div>
               <div class="carousel-item">
-                <img src="assets/img/me/me_7.jpg" alt="Johan Obando-Ceron">
+                <img src="assets/img/me/me_7.jpg" alt="Johan Obando-Ceron" data-zoomable>
               </div>
               <div class="carousel-item">
-                <img src="assets/img/me/me_8.jpg" alt="Johan Obando-Ceron" style="object-position: bottom;">
+                <img src="assets/img/me/me_8.jpg" alt="Johan Obando-Ceron" data-zoomable style="object-position: bottom;">
               </div>
               <div class="carousel-item">
-                <img src="assets/img/me/me_9.jpg" alt="Johan Obando-Ceron">
+                <img src="assets/img/me/me_9.jpg" alt="Johan Obando-Ceron" data-zoomable>
               </div>
               <div class="carousel-item">
-                <img src="assets/img/me/me_10.jpg" alt="Johan Obando-Ceron">
+                <img src="assets/img/me/me_10.jpg" alt="Johan Obando-Ceron" data-zoomable>
               </div>
               <div class="carousel-item">
-                <img src="assets/img/me/me_11.png" alt="Johan Obando-Ceron">
+                <img src="assets/img/me/me_11.png" alt="Johan Obando-Ceron" data-zoomable>
               </div>
             </div>
           </div>
@@ -316,6 +317,7 @@
       $('#profileCarousel').carousel(rand);
     });
   </script>
+  <script defer src="assets/js/zoom.js"></script>
   <script src="assets/js/no_defer.js"></script>
   <script defer src="assets/js/common.js"></script>
   <script type="text/javascript">function progressBarSetup() { "max" in document.createElement("progress") ? (initializeProgressElement(), $(document).on("scroll", function () { progressBar.attr({ value: getCurrentScrollPosition() }) }), $(window).on("resize", initializeProgressElement)) : (resizeProgressBar(), $(document).on("scroll", resizeProgressBar), $(window).on("resize", resizeProgressBar)) } function getCurrentScrollPosition() { return $(window).scrollTop() } function initializeProgressElement() { let e = $("#navbar").outerHeight(!0); $("body").css({ "padding-top": e }), $("progress-container").css({ "padding-top": e }), progressBar.css({ top: e }), progressBar.attr({ max: getDistanceToScroll(), value: getCurrentScrollPosition() }) } function getDistanceToScroll() { return $(document).height() - $(window).height() } function resizeProgressBar() { progressBar.css({ width: getWidthPercentage() + "%" }) } function getWidthPercentage() { return getCurrentScrollPosition() / getDistanceToScroll() * 100 } const progressBar = $("#progress"); window.onload = function () { setTimeout(progressBarSetup, 50) };</script>
