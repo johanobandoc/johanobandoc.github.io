@@ -33,7 +33,7 @@
       /* ── Moments ── */
       'moments.hero-light': 'Beyond',
       'moments.hero-bold':  'the Lab',
-      'moments.hero-desc':  'Snapshots from conferences, research visits, and the cities in between. For more snapshots, check my <a href="https://www.instagram.com/johanobandoc" rel="external nofollow noopener" target="_blank">Instagram profile</a> :)',
+      'moments.hero-desc':  'Snapshots from conferences, research visits, and the cities in between. For more snapshots, check my <a href="https://www.instagram.com/johanobandoc" rel="external nofollow noopener" target="_blank">Instagram</a> :)',
 
       /* ── CV ── */
       'cv.hero-light':    'Curriculum',
@@ -75,9 +75,9 @@
       'research.filter-all': 'Todos',
 
       /* ── Moments ── */
-      'moments.hero-light': 'Más allá',
+      'moments.hero-light': 'Fuera',
       'moments.hero-bold':  'del laboratorio',
-      'moments.hero-desc':  'Instantáneas de conferencias, visitas de investigación y las ciudades en el camino. Para ver más, visita mi <a href="https://www.instagram.com/johanobandoc" rel="external nofollow noopener" target="_blank">perfil de Instagram</a> :)',
+      'moments.hero-desc':  'Fotos de conferencias, visitas de investigación y las ciudades del camino. Para ver más, visita mi <a href="https://www.instagram.com/johanobandoc" rel="external nofollow noopener" target="_blank">Instagram</a> :)',
 
       /* ── CV ── */
       'cv.hero-light':    'Currículum',
@@ -100,7 +100,9 @@
     document.documentElement.lang = lang;
     localStorage.setItem('lang', lang);
     var btn = document.getElementById('lang-toggle');
-    if (btn) btn.textContent = lang === 'en' ? 'ES' : 'EN';
+    if (btn) btn.innerHTML = lang === 'en'
+      ? '<i class="fas fa-globe-americas"></i> Español'
+      : '<i class="fas fa-globe-americas"></i> English';
   }
 
   document.addEventListener('DOMContentLoaded', function () {
