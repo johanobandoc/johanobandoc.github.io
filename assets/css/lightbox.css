@@ -36,28 +36,39 @@
   transform: scale(1);
 }
 
-/* ── Language toggle button ── */
-#lang-toggle {
-  display: inline-flex;
-  align-items: center;
-  gap: 5px;
-  padding: 3px 10px 4px;
-  border: 1.5px solid currentColor;
-  border-radius: 20px;
-  background: transparent;
-  font-size: 0.72rem;
-  font-weight: 600;
-  letter-spacing: 0.02em;
+/* ── Language toggle — inherits all styling from .nav-link ── */
+a#lang-toggle {
   cursor: pointer;
-  color: var(--global-text-color, #000);
-  opacity: 0.55;
-  transition: opacity 0.18s ease;
-  line-height: 1;
-  align-self: center;
+  position: relative;
+  margin-left: 0.5rem;
 }
-#lang-toggle i {
-  font-size: 0.7rem;
+
+/* Thin vertical rule separating nav links from utility controls */
+a#lang-toggle::before {
+  content: '';
+  position: absolute;
+  left: -0.6rem;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 1px;
+  height: 16px;
+  background: var(--global-text-color, #555);
+  opacity: 0.3;
 }
-#lang-toggle:hover {
-  opacity: 0.9;
+
+/* ── Active nav item: bold + blue ellipse indicator ── */
+#navbar .navbar-nav .nav-item.active > .nav-link {
+  font-weight: 600;
+  position: relative;
+}
+#navbar .navbar-nav .nav-item.active > .nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: 4px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 18px;
+  height: 3px;
+  border-radius: 2px;
+  background: var(--global-theme-color, #2698ba);
 }

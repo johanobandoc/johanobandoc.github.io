@@ -101,14 +101,15 @@
     localStorage.setItem('lang', lang);
     var btn = document.getElementById('lang-toggle');
     if (btn) btn.innerHTML = lang === 'en'
-      ? '<i class="fas fa-globe-americas"></i> Español'
-      : '<i class="fas fa-globe-americas"></i> English';
+      ? '<i class="fas fa-language"></i> español'
+      : '<i class="fas fa-language"></i> english';
   }
 
   document.addEventListener('DOMContentLoaded', function () {
     var btn = document.getElementById('lang-toggle');
     if (btn) {
-      btn.addEventListener('click', function () {
+      btn.addEventListener('click', function (e) {
+        e.preventDefault();
         var cur = localStorage.getItem('lang') || 'en';
         setLang(cur === 'en' ? 'es' : 'en');
       });
