@@ -5,6 +5,7 @@
       'nav.about':    'about',
       'nav.research': 'research',
       'nav.moments':  'moments',
+      'nav.background': 'background',
       'nav.cv':       'cv',
 
       /* ── About – main bio ── */
@@ -44,6 +45,33 @@
       'cv.download-btn':  '<i class="fas fa-download"></i> Download PDF',
       'cv.download-note': 'Full CV &mdash; last updated June 2026',
       'cv.mobile-hint':   'Tap the button above to open the full CV in Google Drive.',
+
+      /* ── Background ── */
+      'bg.hero-light': 'The Path',
+      'bg.hero-bold': 'So Far',
+      'bg.hero-desc': 'Education and experience at a glance. For the full details, see my <a href="../cv/index.html">CV</a>.',
+      'bg.education': 'Education',
+      'bg.experience': 'Experience',
+      'bg.phd.title': 'PhD in Machine Learning',
+      'bg.phd.date': 'Sep 2023 – Present',
+      'bg.phd.detail': 'Advised by <a href="https://scholar.google.com/citations?user=km6CP8cAAAAJ&amp;hl=en" rel="external nofollow noopener" target="_blank">Aaron Courville</a> and <a href="https://scholar.google.ca/citations?hl=en&amp;user=jn5r6TsAAAAJ&amp;view_op=list_works&amp;sortby=pubdate" rel="external nofollow noopener" target="_blank">Pablo Samuel Castro</a>.',
+      'bg.msc.title': 'M.Sc. in Machine Learning',
+      'bg.msc.date': 'Sep 2021 – Sep 2023',
+      'bg.msc.detail': 'Advised by <a href="https://scholar.google.com/citations?hl=en&amp;user=uyYPun0AAAAJ&amp;view_op=list_works&amp;sortby=pubdate" rel="external nofollow noopener" target="_blank">Marc G. Bellemare</a> and <a href="https://scholar.google.ca/citations?hl=en&amp;user=jn5r6TsAAAAJ&amp;view_op=list_works&amp;sortby=pubdate" rel="external nofollow noopener" target="_blank">Pablo Samuel Castro</a>. GPA 4.3/4.3, <a class="bg-honor" href="https://esp.umontreal.ca/les-esp/liste-dhonneur-du-recteur/#c710155:~:text=Johan%20Samir%20Obando%20Ceron%20%2D%20Ma%C3%AEtrise%20en%20informatique" rel="external nofollow noopener" target="_blank">Rector’s Honor List</a>.',
+      'bg.msceng.title': 'M.Sc. in Engineering Science',
+      'bg.msceng.date': 'Jul 2018 – Jun 2021',
+      'bg.msceng.detail': 'Thesis: a probabilistic perception system for camera–LiDAR sensor fusion.',
+      'bg.bsc.title': 'B.Sc. in Mechatronics Engineering',
+      'bg.bsc.date': 'Jan 2012 – Jun 2017',
+      'bg.bsc.detail': 'Including an exchange semester at Universidade Federal de Pelotas, Brazil (Aug – Dec 2015).',
+      'bg.gdm2.title': 'Student Researcher',
+      'bg.gdm2.date': 'Jul 2026 – Present',
+      'bg.gdm1.title': 'Student Researcher',
+      'bg.gdm1.date': 'Jul 2023 – Aug 2024',
+      'bg.brain.title': 'Student Researcher',
+      'bg.brain.date': 'Feb 2022 – Jul 2023',
+      'bg.ta-udem.title': 'Teaching Assistant, IFT 6135 Representation Learning',
+      'bg.ta-udem.date': 'Winter 2023, 2024, 2025',
     },
 
     es: {
@@ -51,6 +79,7 @@
       'nav.about':    'sobre mí',
       'nav.research': 'investigación',
       'nav.moments':  'momentos',
+      'nav.background': 'trayectoria',
       'nav.cv':       'cv',
 
       /* ── About – main bio ── */
@@ -90,6 +119,33 @@
       'cv.download-btn':  '<i class="fas fa-download"></i> Descargar PDF',
       'cv.download-note': 'CV completo &mdash; última actualización: junio 2026',
       'cv.mobile-hint':   'Toca el botón de arriba para abrir el CV completo en Google Drive.',
+
+      /* ── Background ── */
+      'bg.hero-light': 'El Camino',
+      'bg.hero-bold': 'Recorrido',
+      'bg.hero-desc': 'Formación y experiencia de un vistazo. Para más detalles, consulta mi <a href="../cv/index.html">CV</a>.',
+      'bg.education': 'Formación',
+      'bg.experience': 'Experiencia',
+      'bg.phd.title': 'Doctorado en Aprendizaje Automático',
+      'bg.phd.date': 'sep. 2023 – actualidad',
+      'bg.phd.detail': 'Bajo la asesoría de <a href="https://scholar.google.com/citations?user=km6CP8cAAAAJ&amp;hl=en" rel="external nofollow noopener" target="_blank">Aaron Courville</a> y <a href="https://scholar.google.ca/citations?hl=en&amp;user=jn5r6TsAAAAJ&amp;view_op=list_works&amp;sortby=pubdate" rel="external nofollow noopener" target="_blank">Pablo Samuel Castro</a>.',
+      'bg.msc.title': 'M.Sc. en Aprendizaje Automático',
+      'bg.msc.date': 'sep. 2021 – sep. 2023',
+      'bg.msc.detail': 'Bajo la asesoría de <a href="https://scholar.google.com/citations?hl=en&amp;user=uyYPun0AAAAJ&amp;view_op=list_works&amp;sortby=pubdate" rel="external nofollow noopener" target="_blank">Marc G. Bellemare</a> y <a href="https://scholar.google.ca/citations?hl=en&amp;user=jn5r6TsAAAAJ&amp;view_op=list_works&amp;sortby=pubdate" rel="external nofollow noopener" target="_blank">Pablo Samuel Castro</a>. Promedio 4.3/4.3, <a class="bg-honor" href="https://esp.umontreal.ca/les-esp/liste-dhonneur-du-recteur/#c710155:~:text=Johan%20Samir%20Obando%20Ceron%20%2D%20Ma%C3%AEtrise%20en%20informatique" rel="external nofollow noopener" target="_blank">Cuadro de Honor del Rector</a>.',
+      'bg.msceng.title': 'M.Sc. en Ciencias de la Ingeniería',
+      'bg.msceng.date': 'jul. 2018 – jun. 2021',
+      'bg.msceng.detail': 'Tesis: un sistema de percepción probabilística para la fusión de sensores cámara–LiDAR.',
+      'bg.bsc.title': 'B.Sc. en Ingeniería Mecatrónica',
+      'bg.bsc.date': 'ene. 2012 – jun. 2017',
+      'bg.bsc.detail': 'Incluye un semestre de intercambio en la Universidade Federal de Pelotas, Brasil (ago. – dic. 2015).',
+      'bg.gdm2.title': 'Investigador Estudiantil',
+      'bg.gdm2.date': 'jul. 2026 – actualidad',
+      'bg.gdm1.title': 'Investigador Estudiantil',
+      'bg.gdm1.date': 'jul. 2023 – ago. 2024',
+      'bg.brain.title': 'Investigador Estudiantil',
+      'bg.brain.date': 'feb. 2022 – jul. 2023',
+      'bg.ta-udem.title': 'Asistente de Docencia, IFT 6135 Aprendizaje de Representaciones',
+      'bg.ta-udem.date': 'invierno 2023, 2024, 2025',
     }
   };
 
