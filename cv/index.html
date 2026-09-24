@@ -268,7 +268,7 @@
   <footer class="sticky-bottom mt-5">
     <div class="container"> &copy; Copyright 2024 Johan Obando-Ceron. Powered by <a href="https://jekyllrb.com/"
         target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio"
-        rel="external nofollow noopener" target="_blank">al-folio</a> theme. Last updated: June 2026. </div>
+        rel="external nofollow noopener" target="_blank">al-folio</a> theme. Last updated: <span class="last-updated">June 2026</span>. </div>
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"
@@ -278,6 +278,7 @@
   <script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js"
     integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script>
   <script defer src="../assets/js/lang.js"></script>
+  <script defer src="../assets/js/last_updated.js"></script>
   <script src="../assets/js/no_defer.js"></script>
   <script defer src="../assets/js/common.js"></script>
   <script type="text/javascript">function progressBarSetup() { "max" in document.createElement("progress") ? (initializeProgressElement(), $(document).on("scroll", function () { progressBar.attr({ value: getCurrentScrollPosition() }) }), $(window).on("resize", initializeProgressElement)) : (resizeProgressBar(), $(document).on("scroll", resizeProgressBar), $(window).on("resize", resizeProgressBar)) } function getCurrentScrollPosition() { return $(window).scrollTop() } function initializeProgressElement() { let e = $("#navbar").outerHeight(!0); $("body").css({ "padding-top": e }), $("progress-container").css({ "padding-top": e }), progressBar.css({ top: e }), progressBar.attr({ max: getDistanceToScroll(), value: getCurrentScrollPosition() }) } function getDistanceToScroll() { return $(document).height() - $(window).height() } function resizeProgressBar() { progressBar.css({ width: getWidthPercentage() + "%" }) } function getWidthPercentage() { return getCurrentScrollPosition() / getDistanceToScroll() * 100 } const progressBar = $("#progress"); window.onload = function () { setTimeout(progressBarSetup, 50) };</script>
