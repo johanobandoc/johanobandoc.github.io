@@ -66,12 +66,15 @@
       'bg.bsc.detail': 'Including an exchange semester at Universidade Federal de Pelotas, Brazil (Aug – Dec 2015).',
       'bg.gdm2.title': 'Student Researcher',
       'bg.gdm2.date': 'Jul 2026 – Present',
+      'bg.gdm2.detail': 'Hosted by <a href="https://scholar.google.com/citations?user=LK_CV24AAAAJ&amp;hl=en" rel="external nofollow noopener" target="_blank">Diana Borsa</a> and <a href="https://scholar.google.com/citations?user=W80oBMkAAAAJ&amp;hl=en" rel="external nofollow noopener" target="_blank">Hado van Hasselt</a>.',
       'bg.gdm1.title': 'Student Researcher',
       'bg.gdm1.date': 'Jul 2023 – Aug 2024',
+      'bg.gdm1.detail': 'Hosted by <a href="https://scholar.google.com/citations?user=U89FHq4AAAAJ&amp;hl=en" rel="external nofollow noopener" target="_blank">Hugo Larochelle</a> and <a href="https://scholar.google.ca/citations?hl=en&amp;user=jn5r6TsAAAAJ&amp;view_op=list_works&amp;sortby=pubdate" rel="external nofollow noopener" target="_blank">Pablo Samuel Castro</a>.',
       'bg.brain.title': 'Student Researcher',
       'bg.brain.date': 'Feb 2022 – Jul 2023',
+      'bg.brain.detail': 'Hosted by <a href="https://scholar.google.com/citations?hl=en&amp;user=uyYPun0AAAAJ&amp;view_op=list_works&amp;sortby=pubdate" rel="external nofollow noopener" target="_blank">Marc G. Bellemare</a> and <a href="https://scholar.google.ca/citations?hl=en&amp;user=jn5r6TsAAAAJ&amp;view_op=list_works&amp;sortby=pubdate" rel="external nofollow noopener" target="_blank">Pablo Samuel Castro</a>.',
       'bg.ta-udem.title': 'Teaching Assistant, IFT 6135 Representation Learning',
-      'bg.ta-udem.date': 'Winter 2023, 2024, 2025',
+      'bg.ta-udem.date': 'Winter 2023, 2024, 2025, 2026',
     },
 
     es: {
@@ -140,12 +143,15 @@
       'bg.bsc.detail': 'Incluye un semestre de intercambio en la Universidade Federal de Pelotas, Brasil (ago. – dic. 2015).',
       'bg.gdm2.title': 'Investigador Estudiantil',
       'bg.gdm2.date': 'jul. 2026 – actualidad',
+      'bg.gdm2.detail': 'Bajo la supervisión de <a href="https://scholar.google.com/citations?user=LK_CV24AAAAJ&amp;hl=en" rel="external nofollow noopener" target="_blank">Diana Borsa</a> y <a href="https://scholar.google.com/citations?user=W80oBMkAAAAJ&amp;hl=en" rel="external nofollow noopener" target="_blank">Hado van Hasselt</a>.',
       'bg.gdm1.title': 'Investigador Estudiantil',
       'bg.gdm1.date': 'jul. 2023 – ago. 2024',
+      'bg.gdm1.detail': 'Bajo la supervisión de <a href="https://scholar.google.com/citations?user=U89FHq4AAAAJ&amp;hl=en" rel="external nofollow noopener" target="_blank">Hugo Larochelle</a> y <a href="https://scholar.google.ca/citations?hl=en&amp;user=jn5r6TsAAAAJ&amp;view_op=list_works&amp;sortby=pubdate" rel="external nofollow noopener" target="_blank">Pablo Samuel Castro</a>.',
       'bg.brain.title': 'Investigador Estudiantil',
       'bg.brain.date': 'feb. 2022 – jul. 2023',
+      'bg.brain.detail': 'Bajo la supervisión de <a href="https://scholar.google.com/citations?hl=en&amp;user=uyYPun0AAAAJ&amp;view_op=list_works&amp;sortby=pubdate" rel="external nofollow noopener" target="_blank">Marc G. Bellemare</a> y <a href="https://scholar.google.ca/citations?hl=en&amp;user=jn5r6TsAAAAJ&amp;view_op=list_works&amp;sortby=pubdate" rel="external nofollow noopener" target="_blank">Pablo Samuel Castro</a>.',
       'bg.ta-udem.title': 'Asistente de Docencia, IFT 6135 Aprendizaje de Representaciones',
-      'bg.ta-udem.date': 'invierno 2023, 2024, 2025',
+      'bg.ta-udem.date': 'invierno 2023, 2024, 2025, 2026',
     }
   };
 
